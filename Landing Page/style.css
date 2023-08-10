@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+    height: 50px;
+}
+
+nav .left-side ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav .icon{
+    color: aquamarine;
+    align-items: center;
+}
+
+nav .right-side ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+nav .right-side button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* Hello Area */
+
+.hello {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello .hello-side p{
+    text-align: center;
+    font-size: 200px;
+}
+
+.hello .hello-side p .h{
+    color: rgb(231, 231, 2);
+}
+
+.hello .hello-side p .e{
+    color:tomato ;
+}
+
+.hello .hello-side p .l{
+    color: aquamarine;
+}
+
+.hello .hello-side p .o{
+    color: tomato;
+}
+
+.hello .hello-side p .dot{
+    color: coral;
+}
