@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(215, 215, 255);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner-wrapper{
+    width: auto;
+    margin:  0 auto;
+    margin-top: 100px;
+}
+
+/* Uppper - side */
+
+.upper{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;    
+    width: 400px;
+    background-color: rgb(212, 166, 255);
+    padding: 10px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.3);
+}
+
+.upper button{
+    position: absolute;
+    left: 10px;
+    border: none;
+    background-color: rgb(212, 166, 255);
+    color: white;
+}
+
+
+/* Lower - side */
+
+.lower{
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.3);
+    position: relative;
+}
+
+
+.lower-side{
+    position: relative;
+    height: auto;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    /* justify-content: space-evenly; */
+}
+
+.task p{
+    color: rgb(122, 122, 122);
+}
+
+.task .delete{
+    color: rgb(212, 166, 255);
+    border: none;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+}
+
+.input-area{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    /* border: 2px solid rgb(255, 211, 211); */
+}
+
+.lower .new-task{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom:-15px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(212, 166, 255);   
+}
+
+.new-task:hover{
+    background-color: rgb(203, 151, 253);   
+}
+
+.new-task:active{
+    background-color: rgb(147, 109, 183);
+}
+
+
+.active{
+    display: block;
+}
+
+.deactive{
+    display: none;
+}
